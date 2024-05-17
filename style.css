@@ -9,7 +9,7 @@
 body {
     font-family: "Hind", sans-serif;
     background-color: #f2f2f2;
-    height: 100vh;
+    height: 90vh;
 }
 
 html {
@@ -20,13 +20,15 @@ p {
     color: rgba(204, 205, 207, 255);
 }
 
-a, .mio-bottone {
-transition: all 200ms ease;
+a,
+.mio-bottone {
+    transition: all 200ms ease;
 }
 
 /* NAV */
 
-nav, .nav-links {
+nav,
+.nav-links {
     display: flex;
 }
 
@@ -35,7 +37,7 @@ nav {
     top: 0;
     left: 0;
     width: 100%;
-    display: relative; 
+    display: relative;
     justify-content: space-around;
     align-items: center;
     height: 9vh;
@@ -47,7 +49,8 @@ nav {
     font-size: 1.3rem;
 }
 
-.logo, .link {
+.logo,
+.link {
     color: #515769;
 }
 
@@ -56,7 +59,7 @@ nav {
 }
 
 .nav-links {
-    display: flex; 
+    display: flex;
     gap: 2rem;
     list-style: none;
     font-weight: 500;
@@ -89,7 +92,7 @@ nav {
     background-attachment: fixed;
     background-repeat: no-repeat;
     width: 100%;
-    height: 900px;
+    height: 700px;
     display: flex;
     align-items: center;
 }
@@ -97,7 +100,7 @@ nav {
 .testo-home {
     position: absolute;
     top: 35%;
-    left: 120px; 
+    left: 120px;
     transform: translateY(-50%);
     text-align: center;
     display: inline-block;
@@ -107,7 +110,7 @@ nav {
     font-size: 55px;
     color: #fafafa;
     font-weight: 500;
-    max-width: 500px; 
+    max-width: 500px;
     word-wrap: break-word;
 
 }
@@ -116,31 +119,36 @@ nav {
     font-size: 20px;
     color: #fafafa;
     font-weight: 600;
-    overflow: hidden; 
-    white-space: nowrap; 
-    border-right: 2px solid white;  
-    margin: 30px auto; 
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 2px solid white;
+    margin: 30px auto;
     animation: typing 3.6s steps(23, end) infinite, blinking-cursor 0.5s step-end infinite;
 }
 
 @keyframes typing {
     from {
-      width: 0
+        width: 0
     }
-    to {
-      width: 58%
-    }
-  }
-  
-  @keyframes blinking-cursor {
-    from,
-    to { border-color: transparent; 
-    }
-    50% { border-color: white;
-    }
-  }
 
-  .bottone-home {
+    to {
+        width: 58%
+    }
+}
+
+@keyframes blinking-cursor {
+
+    from,
+    to {
+        border-color: transparent;
+    }
+
+    50% {
+        border-color: white;
+    }
+}
+
+.bottone-home {
     border: 0;
     outline: 0;
     cursor: pointer;
@@ -152,22 +160,22 @@ nav {
     padding: 11px 20px;
     display: inline-block;
     margin-left: 230px;
-    }
-    
-    .bottone-home:hover {
-        background-color: #f0f0f0;
-    }
-    
-    .portfolio-scritta {
-        display:block;
-        font-size: 32px;
-        margin-top: -26px;
-        
-    }
+}
 
-    .fiore {
-        font-size: 28px;
-    }
+.bottone-home:hover {
+    background-color: #f0f0f0;
+}
+
+.portfolio-scritta {
+    display: block;
+    font-size: 32px;
+    margin-top: -26px;
+
+}
+
+.fiore {
+    font-size: 25px;
+}
 
 /* SECTION */
 
@@ -179,9 +187,9 @@ section {
 
 #profilo {
     display: flex;
-   justify-content: center; 
-   align-items: center; 
-   height: 100vh;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 .foto-profilo {
@@ -191,10 +199,10 @@ section {
 }
 
 .testo-profilo {
-    display: flex; 
-    flex-direction: column; 
-    align-items: center; 
-    text-align: center; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
     margin-right: 120px;
 }
 
@@ -203,55 +211,54 @@ section {
     font-size: 38px;
     color: #98999f;
     font-weight: 400;
-    flex-direction: column; 
+    flex-direction: column;
     text-align: center;
 }
 
 .student {
-    display: block; 
-    margin-top: -0.5em; 
+    display: block;
+    margin-top: -0.5em;
 }
 
 
-
 .icone {
-    display: flex; 
-    align-items: center; 
+    display: flex;
+    align-items: center;
     gap: 1rem;
 }
 
 .icone a svg {
-    fill: #626264; 
-    transition: fill 0.3s ease;  
+    fill: #626264;
+    transition: fill 0.3s ease;
 }
 
 .icone a svg:hover {
-    fill: #a3a3f6; 
+    fill: #a3a3f6;
 }
 
 .linea {
-    width: 80px; 
-    height: 2px; 
-    background-color: #98999f; 
+    width: 80px;
+    height: 2px;
+    background-color: #98999f;
     border: none;
     margin-left: -30px;
     margin-right: 9px;
 }
 
 .bottone-profilo {
-border: 0;
-outline: 0;
-cursor: pointer;
-color: #f6f6ff;
-background-color: #a3a3f6;
-border-radius: 4px;
-font-size: 13px;
-font-weight: 400;
-padding: 9px 8px;
-display: inline-block;
-min-height: 28px;
-margin-right: -60px;
-margin-left: 10px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    color: #f6f6ff;
+    background-color: #a3a3f6;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 9px 8px;
+    display: inline-block;
+    min-height: 28px;
+    margin-right: -70px;
+    margin-left: 7px;
 }
 
 .bottone-profilo:hover {
@@ -265,97 +272,38 @@ margin-left: 10px;
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    padding: 1px;
-    margin-left: 50px;
-    height: 80vh;
-    margin-top: -40px;
+    margin-left: -240px;
+    height: 98vh;
+    margin-top: 30px;
 }
 
 .formazione {
     position: relative;
-    width: 50%;
-    max-width: 800px;
+    margin-top: 30px;
+    margin-right: -290px;
 }
 
 .titolo-formazione {
     color: #777779;
     font-weight: 600;
     position: absolute;
-    transform: translate(5%,-140%);
+    transform: translate(5%, -140%);
     background-image: linear-gradient(#d8d8ff, #d8d8ff);
     background-size: 100% 8px;
     background-repeat: no-repeat;
     transition: background-size .7s, background-position .5s ease-in-out;
-  }
-  
+}
+
 .titolo-formazione:hover {
     background-size: 100% 100%;
     background-position: 0% 100%;
     transition: background-position .7s, background-size .5s ease-in-out;
     cursor: default;
-  }
-
-.magistrale {
-    position: relative;
-    padding: 5px 5px 5px 13px;
-    border-left: 2px solid #a3a3f6;
-    margin-bottom: 20px;
 }
 
-.magistrale h3{
-    margin: 0 0 10px 0;
-    font-size: 15px;
-    font-weight: 500;
-    color: #777779;
-}
-
-.magistrale p {
-    margin-top: -10px;
-    color: #98999f;
-    font-style: italic;
-
-}
-
-.cfu {
-    position: relative;
-    padding: 5px 5px 5px 13px;
-    border-left: 2px solid #a3a3f6;
-    margin-bottom: 20px;
-}
-
-.cfu h3{
-    margin: 0 0 10px 0;
-    font-size: 15px;
-    font-weight: 500;
-    color: #777779;
-}
-
-.cfu p{
-    margin-top: -10px;
-    color: #98999f;
-    font-style: italic;
-}
-
-.overseas {
-    position: relative;
-    padding: 5px 5px 5px 13px;
-    border-left: 2px solid #a3a3f6;
-    margin-bottom: 20px;
-}
-
-.overseas h3{
-    margin: 0 0 10px 0;
-    font-size: 15px;
-    font-weight: 500;
-    color: #777779;
-}
-
-.overseas p {
-    margin-top: -10px;
-    color: #98999f;
-    font-style: italic;
-}
-
+.magistrale,
+.cfu,
+.overseas,
 .triennale {
     position: relative;
     padding: 5px 5px 5px 13px;
@@ -363,49 +311,83 @@ margin-left: 10px;
     margin-bottom: 20px;
 }
 
-.triennale h3{
+.magistrale h3,
+.cfu h3,
+.overseas h3,
+.triennale h3 {
     margin: 0 0 10px 0;
-    font-size: 15px;
+    font-size: 16px;
     font-weight: 500;
     color: #777779;
-    max-width: 300px; 
-    word-wrap: break-word; 
 }
 
+.triennale h3 {
+    max-width: 500px;
+    word-wrap: break-word;
+}
+
+.magistrale p,
+.cfu p,
+.overseas p,
 .triennale p {
     margin-top: -10px;
     color: #98999f;
     font-style: italic;
-}
-
-.skill-informatiche,
-.skill-lingue {
-    width: 40%; 
-    max-width: 500px;
-    margin-top: 20px;
-    background: #d8d8ff;
-    border-color: #d8d8ff;
-    border-radius: 6px;
-    border-style: Solid;
-    border-width: 60px;
-    flex-direction: column; 
-}
-
-
-.informatica-tit, .lingue-tit{
-    color: #777779;
-    font-weight: 600;
-    margin-bottom: 15px;
-}
-
-.icons {
-    display: flex; 
-    gap: 2rem;
+    font-size: 15px;
 }
 
 .skills-container {
     display: flex;
     flex-direction: column;
-    margin-left: 220px;
+    margin-left: 30px;
+    margin-bottom: 150px;
 }
 
+.skill-informatiche,
+.skill-lingue {
+    width: 70%;
+    background: #d8d8ff;
+    border-color: #d8d8ff;
+    border-radius: 6px;
+    border-style: Solid;
+    border-width: 10px;
+    margin-left: 380px;
+    flex-direction: column;
+}
+
+.informatica-tit,
+.lingue-tit {
+    color: #777779;
+    font-weight: 600;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.icons {
+    display: flex;
+    gap: 2rem;
+}
+
+/* CONTATTI */
+
+#contact {
+    background-image: url('assets/abstract-oil-paint-textured-background.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 700px;
+    display: flex;
+    align-items: center;
+}
+
+.form-scritta,
+{
+    font-size: 20px;
+    color: #fafafa;
+    font-weight: 500;
+    max-width: 500px;
+    align-items: center;
+}
