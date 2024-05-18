@@ -196,6 +196,21 @@ section {
     display: flex;
     height: 265px;
     margin: auto 0;
+    color: #d8d8ff;
+    position: relative;
+    
+}
+
+.foto-profilo-img {
+    position: relative;
+}
+
+.vector-shape {
+    position: absolute;
+    height: 265px;
+    margin: auto 0;
+    color: #d8d8ff;
+    right: 320px;
 }
 
 .testo-profilo {
@@ -204,6 +219,7 @@ section {
     align-items: center;
     text-align: center;
     margin-right: 120px;
+    position: relative;
 }
 
 .lavoro {
@@ -264,6 +280,8 @@ section {
 .bottone-profilo:hover {
     background-color: #8888f5;
 }
+
+
 
 /* COMPETENZE */
 
