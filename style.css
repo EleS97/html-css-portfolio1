@@ -180,7 +180,7 @@ nav {
 /* SECTION */
 
 section {
-    padding-top: 4vh;
+    padding-top: 3vh;
 }
 
 /* PROFILO */
@@ -289,9 +289,56 @@ height: 280px;
     background-color: #8888f5;
 }
 
+/* COMPETENZE INFORMATICHE */
 
+#competenze-informatiche {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+  }
 
-/* COMPETENZE */
+  .skill-informatiche {
+    text-align: center;
+    background-color: #d8d8ff;
+
+  }
+  
+  .informatica-tit {
+    color: #777779;
+    font-weight: 500;
+    padding-top: 2%;
+    margin-bottom: 1.5%;
+    font-size: 20px;
+  }
+
+@keyframes slide {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+  }
+
+  .icons {
+    padding-bottom: 2.5%;
+    animation: slide 15s linear infinite;
+    display: inline-block;
+  }
+
+  .icon-slide {
+    white-space: nowrap;
+  }
+
+  .ticker-img{
+    margin: 0 3.5%;
+    vertical-align: middle;
+    
+  }
+
+/* FORMAZIONE */
 
 #competenze {
     display: flex;
@@ -362,38 +409,7 @@ height: 280px;
     font-size: 15px;
 }
 
-.skills-container {
-    display: flex;
-    flex-direction: column;
-    margin-left: 30px;
-    margin-bottom: 150px;
-}
 
-.skill-informatiche,
-.skill-lingue {
-    width: 70%;
-    background: #d8d8ff;
-    border-color: #d8d8ff;
-    border-radius: 6px;
-    border-style: Solid;
-    border-width: 10px;
-    margin-left: 380px;
-    flex-direction: column;
-    margin-bottom: 10px;
-}
-
-.informatica-tit,
-.lingue-tit {
-    color: #777779;
-    font-weight: 600;
-    margin-bottom: 15px;
-    font-size: 20px;
-}
-
-.icons {
-    display: flex;
-    gap: 2rem;
-}
 
 /* CONTATTI */
 
