@@ -2,6 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Inter:wght@100..900&display=swap');
 
+
 * {
     margin: 0;
     padding: 0;
@@ -51,22 +52,22 @@ nav {
 
 .logo-favicon {
     width: 25px;
-    margin: 0.5% 1%;
+    margin: 0.8% 1%;
 }
 
 .logo {
     font-size: 1.5rem;
     display: flex;
     align-items: center;
-    margin-top: 0.5rem;
+    margin-top: 0.4rem;
     gap: 3%;
 }
 
 
-
 .logo,
 .link {
-    color: #515769;
+    color: #777779;
+    font-weight: bold;
 }
 
 .logo:hover {
@@ -86,7 +87,7 @@ nav {
     text-decoration: none;
     position: flex;
     box-shadow: inset 0 0 0 0 #d8d8ff;
-    color: #515769;
+    color: #777779;
     padding: 0 .25rem;
     margin: 0 -.25rem;
     transition: color 1s ease-in-out, box-shadow 0.5s ease-in-out;
@@ -100,9 +101,11 @@ nav {
 /* HOME */
 
 #home {
-    background-image: url('assets/abstract-oil-paint-textured-background.jpg');
-    background-size: cover;
-    background-position: center;
+    background-image: url(/assets/masaaki-komori-qgEKJkf4sKY-unsplash.jpg);
+    background-size: 85%;
+    background-position: left;
+    background-color: #FBFBFB;
+    font-family: Boiling Demo;
     position: relative;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -123,8 +126,8 @@ nav {
 }
 
 .titolo-home {
-    font-size: 55px;
-    color: #fafafa;
+    font-size: 50px;
+    color: #b8b8ef;
     font-weight: bold;
     max-width: 500px;
     word-wrap: break-word;
@@ -133,11 +136,11 @@ nav {
 
 .sottotitolo-home {
     font-size: 20px;
-    color: #fafafa;
+    color: #b8b8ef;
     font-weight: 600;
     overflow: hidden;
     white-space: nowrap;
-    border-right: 2px solid white;
+    border-right: 3px solid white;
     margin: 30px auto;
     animation: typing 3.6s steps(23, end) infinite, blinking-cursor 0.5s step-end infinite;
 }
@@ -148,7 +151,7 @@ nav {
     }
 
     to {
-        width: 58%
+        width: 64%
     }
 }
 
@@ -168,29 +171,30 @@ nav {
     border: 0;
     outline: 0;
     cursor: pointer;
-    color: #515769;
-    background-color: #f6f6ff;
+    color: white;
+    background: linear-gradient(to right bottom, #d8d8ff, #d0d0fb, #c8c8f7, #c0c0f3, #b8b8ef);
     border-radius: 4px;
     font-size: 17px;
-    font-weight: 300;
+    font-weight: 600;
     padding: 11px 20px;
     display: inline-block;
-    margin: 20px auto 0;
+    margin: 17px auto 0;
+    font-family: Boiling Demo;
 }
 
-.bottone-home:hover {
-    background-color: #f0f0f0;
-}
+
 
 .portfolio-scritta {
     display: block;
-    font-size: 32px;
+    font-size: 30px;
     margin-top: 10px;
+    color: #b8b8ef;
 
 }
 
 .fiore {
-    font-size: 0px;
+    font-size: 35px;
+    font-style: normal;
 }
 
 /* SECTION */
@@ -206,6 +210,7 @@ section {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    font-family: Boiling Demo;
 }
 
 .foto-profilo {
@@ -233,7 +238,7 @@ position: absolute;
 z-index: 0;
 margin: auto 0;
 margin-top: -5px;
-height: 280px;
+height: 240px;
 }
 
 .testo-profilo {
@@ -276,52 +281,43 @@ height: 280px;
     fill: #a3a3f6;
 }
 
-.linea {
-    width: 80px;
-    height: 2px;
-    background-color: #98999f;
-    border: none;
-    margin-left: -30px;
-    margin-right: 9px;
-}
 
 .bottone-profilo {
     border: 0;
     outline: 0;
     cursor: pointer;
-    color: #f6f6ff;
-    background-color: #a3a3f6;
+    color: white;
+    background: linear-gradient(to right bottom, #d8d8ff, #d0d0fb, #c8c8f7, #c0c0f3, #b8b8ef);
     border-radius: 4px;
-    font-size: 14px;
-    font-weight: 400;
-    padding: 9px 8px;
+    font-size: 17px;
+    font-weight: 600;
+    padding: 11px 20px;
     display: inline-block;
-    min-height: 28px;
-    margin-right: -70px;
-    margin-left: 7px;
+    margin: 20px auto 0;
+    font-family: Boiling Demo;
+    
 }
 
-.bottone-profilo:hover {
-    background-color: #8888f5;
-}
 
 /* COMPETENZE INFORMATICHE */
 
 #competenze {
     display: flex;
-    padding-top: 8vh;
+    margin-top: 30px;
+    position: relative;
   }
 
   .skill-informatiche {
     text-align: center;
-    
     border-color: #d8d8ff;
-   
+   background-color: #d8d8ff;
+   position: relative;
+   margin-top: 50px;
   }
   
   .informatica-titolo {
     color: #777779;
-    font-weight: 500;
+    font-weight: bold;
     padding-top: 2.3%;
     margin-bottom: 2.3%;
     font-size: 25px;
@@ -353,6 +349,14 @@ height: 280px;
     
   }
 
+  .competenze-svg {
+    position: absolute;
+    top: -180px; 
+    left: 0;
+    width: 100%;
+    height: auto;
+  }
+
 /* FORMAZIONE */
 
 #formazione {
@@ -373,7 +377,7 @@ height: 280px;
 .titolo-formazione {
     color: #777779;
     font-weight: 600;
-    font-size: 120%;
+    font-size: 150%;
     position: absolute;
     transform: translate(5%, -230%);
     background-image: linear-gradient(#d8d8ff, #d8d8ff);
@@ -434,7 +438,7 @@ height: 280px;
 /* CONTATTI */
 
 #contact {
-    background-image: url('assets/abstract-oil-paint-textured-background.jpg');
+    background-image: url(/assets/masaaki-komori-qgEKJkf4sKY-unsplash.jpg);
     background-size: cover;
     background-position: center;
     position: relative;
