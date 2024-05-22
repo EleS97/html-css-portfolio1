@@ -250,7 +250,7 @@ height: 240px;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    margin-right: 120px;
+    padding-right: 25%;
     position: relative;
     z-index: 2;
 }
@@ -302,6 +302,11 @@ height: 240px;
     font-family: Boiling Demo;
     
 }
+
+.bottone-profilo:hover {
+    box-shadow: rgba(0, 0, 0, .15) 0 3px 9px 0;
+    transform: translateY(-2px);
+  }
 
 
 /* COMPETENZE INFORMATICHE */
