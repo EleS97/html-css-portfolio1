@@ -109,16 +109,17 @@ nav {
     width: 100%;
     height: 100vh;
     display: flex;
+    justify-content: center;
+    text-align: center;
     align-items: center;
 }
 
 .testo-home {
-    position: absolute;
-    top: 35%;
-    left: 120px;
-    transform: translateY(-50%);
+    position: static;
+    transform: none;
     text-align: center;
-    display: inline-block;
+    display: block;
+    margin: 0 auto;
 }
 
 .titolo-home {
@@ -174,7 +175,7 @@ nav {
     font-weight: 300;
     padding: 11px 20px;
     display: inline-block;
-    margin-left: 230px;
+    margin: 20px auto 0;
 }
 
 .bottone-home:hover {
@@ -184,12 +185,12 @@ nav {
 .portfolio-scritta {
     display: block;
     font-size: 32px;
-    margin-top: -26px;
+    margin-top: 10px;
 
 }
 
 .fiore {
-    font-size: 25px;
+    font-size: 0px;
 }
 
 /* SECTION */
