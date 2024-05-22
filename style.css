@@ -213,7 +213,7 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 85vh;
     font-family: Boiling Demo;
 }
 
@@ -250,14 +250,14 @@ height: 240px;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    padding-right: 25%;
+    padding-right: 28%;
     position: relative;
     z-index: 2;
 }
 
 .lavoro {
     display: flex;
-    font-size: 38px;
+    font-size: 45px;
     color: #98999f;
     font: bold;
     flex-direction: column;
@@ -329,8 +329,8 @@ height: 240px;
     color: #777779;
     font-weight: bold;
     padding-top: 2.3%;
-    margin-bottom: 2.3%;
-    font-size: 25px;
+    margin-bottom: 4%;
+   font-size: 30px;
   }
 
 @keyframes slide {
@@ -387,7 +387,7 @@ height: 240px;
 .titolo-formazione {
     color: #777779;
     font-weight: 600;
-    font-size: 150%;
+    font-size: 180%;
     position: absolute;
     transform: translate(5%, -230%);
     background-image: linear-gradient(#d8d8ff, #d8d8ff);
@@ -464,7 +464,7 @@ height: 240px;
 
 .form-scritta
 {
-    font-size: 25px;
+    font-size: 40px;
     color: #b8b8ef;
     font-weight: 500;
     margin-top: -250px;
