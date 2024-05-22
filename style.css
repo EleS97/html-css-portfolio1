@@ -537,3 +537,15 @@ label {
     box-shadow: rgba(0, 0, 0, .15) 0 3px 9px 0;
     transform: translateY(-2px);
   }
+
+  .send-message-svg {
+    position: absolute;
+    right:440px;
+    width: 100px;
+    bottom: 50px;
+  }
+
+  form {
+    display: flex;
+  flex-direction: column;
+  }
