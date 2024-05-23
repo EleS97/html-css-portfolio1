@@ -98,6 +98,17 @@ nav {
     box-shadow: inset 200px 0 0 0 #d8d8ff;
 }
 
+.menu-toggle {
+    display: none;
+  }
+  
+  .menu-icona {
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: #777779;
+  }
+
 /* HOME */
 
 #home {
