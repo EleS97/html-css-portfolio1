@@ -1,34 +1,3 @@
-@media screen and (max-width: 600px) {
-    nav {
-        justify-content: space-between;
-        padding: 0 1rem;
-    }
-
-    .nav-links {
-        display: none;
-        flex-direction: column;
-        width: 100%;
-        background-color: white;
-        position: absolute;
-        top: 10vh;
-        left: 0;
-        padding: 1rem 0;
-    }
-
-    .nav-links li {
-        text-align: center;
-        padding: 1rem 0;
-    }
-
-    .menu-icona {
-        display: flex;
-        margin-right: 15%;
-    }
-
-    .menu-toggle:checked ~ .nav-links {
-        display: flex;
-    }
-    }
 
     @media screen and (max-width: 600px) {
 
@@ -104,16 +73,61 @@
           .fiore {
             font-size: 140%;
           }
+
+          /* PROFILO */
+
+          #profilo {
+            flex-direction: column;
+            padding-top: 70px;
+            justify-content: center;
+            align-items: center;
+          }
+        
+          .foto-profilo,
+          .testo-profilo {
+            padding: 0;
+          }
+
+          .foto-profilo {
+            display: flex;
+            margin-top: 12%;
+          }
+        
+          .foto-profilo-img {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            
+          }
+
+          .lavoro  {
+            font-size: 150%;
+          }
+
+          .competenze-svg {
+            position: absolute;
+            top: 180px; 
+            left: 0;
+            width: 100%;
+            height: auto;
+          }
     
     }
 
-    @media screen and (min-width: 600px) and (max-width: 1042px) {
+    @media screen and (min-width: 768px) and (max-width: 1042px) {
+
+        /* HOME */
 
         #home {
             background-position-x: 50%;
             background-position-y: 120px;
         }
-    
-    
+        
+        /* PROFILO */
+
+        
+     
     
     }
