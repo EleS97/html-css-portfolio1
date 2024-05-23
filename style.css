@@ -334,7 +334,7 @@ height: 125%;
     color: #777779;
     font-weight: bold;
     margin-bottom: 4%;
-   font-size: 150%;
+   font-size: 200%;
   }
 
   @keyframes slide {
@@ -358,14 +358,14 @@ height: 125%;
   }
 
   .ticker-img{
-    margin: 0 3.3%;
+    margin: 0 4.5%;
     vertical-align: middle;
     
   }
 
   .competenze-svg {
     position: absolute;
-    top: -60%; 
+    top: -50%; 
     left: 0;
     width: 100%;
     height: auto;
