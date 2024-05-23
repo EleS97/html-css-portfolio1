@@ -113,7 +113,7 @@ nav {
 
 #home {
     background-image: url(/assets/masaaki-komori-qgEKJkf4sKY-unsplash.jpg);
-    background-size: 85%;
+    background-size: cover;
     background-position: left;
     background-color: #FBFBFB;
     font-family: Boiling Demo;

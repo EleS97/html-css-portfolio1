@@ -29,3 +29,91 @@
         display: flex;
     }
     }
+
+    @media screen and (max-width: 600px) {
+
+        /* NAV */
+        nav {
+            justify-content: space-between;
+            padding: 0 1rem;
+        }
+    
+        .nav-links {
+            display: none;
+            flex-direction: column;
+            width: 100%;
+            background-color: white;
+            position: absolute;
+            top: 10vh;
+            left: 0;
+            padding: 1rem 0;
+        }
+    
+        .nav-links li {
+            text-align: center;
+            padding: 1rem 0;
+        }
+    
+        .menu-icona {
+            display: flex;
+            margin-right: 15%;
+        }
+    
+        .menu-toggle:checked ~ .nav-links {
+            display: flex;
+        }
+    
+    
+        /* HOME */
+    
+        #home {
+            background-position-x: 50%;
+            background-position-y: 20px;
+            height: 98vh;
+    
+        }
+    
+        .titolo-home {
+            font-size: 200%;
+          }
+        
+          .sottotitolo-home {
+            font-size: 90%;
+            margin: 8% auto;
+          }
+        
+          .bottone-home {
+            font-size: 90%;
+            padding: 8px 16px;
+          }
+    
+          @keyframes typing {
+            from {
+                width: 0
+            }
+        
+            to {
+                width: 90%
+            }
+        }
+        
+          .portfolio-scritta {
+            font-size: 70%;
+          }
+        
+          .fiore {
+            font-size: 140%;
+          }
+    
+    }
+
+    @media screen and (min-width: 600px) and (max-width: 1042px) {
+
+        #home {
+            background-position-x: 50%;
+            background-position-y: 120px;
+        }
+    
+    
+    
+    }
