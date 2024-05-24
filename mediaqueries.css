@@ -1,5 +1,5 @@
 
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 767px) {
 
         /* NAV */
         nav {
@@ -78,9 +78,10 @@
 
           #profilo {
             flex-direction: column;
-            padding-top: 25%;
+            padding-top: 15%;
             justify-content: center;
             align-items: center;
+            height: 80vh;
           }
         
           .foto-profilo,
@@ -109,7 +110,7 @@
             /* COMPETENZE */
 
             #competenze {
-                margin-top: -10%;
+                margin-top: -20%;
                 
               }
 
@@ -130,16 +131,60 @@
                 margin: 3% 1%;
                 width: 10%;
               }
+
+              /* FORMAZIONE */
+
+              #formazione {
+                flex-direction: column;
+                height: auto;
+              }
+            
+              .formazione-container {
+                margin-right: 0;
+                margin-left: 5%;
+                margin-bottom: -5%;
+              }
+            
+              .titolo-formazione {
+                position: static;
+                transform: none;
+                margin-bottom: 20px;
+              }
+
+              .titolo-formazione {
+                background-size: 38% 8px;
+            }
+            
+            .titolo-formazione:hover {
+                background-size: 40% 100%;
+                background-position: 0% 100%;
+            }
+            
+              .girl-phone {
+                margin-left: 0;
+                width: 90%;
+              }
            
-
-
         }
               
 
-        @media screen and (max-width: 350px) {
+        @media screen and (max-width: 360px) {
+
+            /* COMPETENZE */
             #competenze {
                 margin-top: 30%;
               }
+
+            /* FORMAZIONE */
+
+            .titolo-formazione {
+                background-size: 45% 8px;
+            }
+            
+            .titolo-formazione:hover {
+                background-size: 45% 100%;
+                background-position: 0% 100%;
+            }
 
         }
     
@@ -154,8 +199,9 @@
         }
         
         /* PROFILO */
-
         
-     
-    
+        .testo-profilo {
+            padding-right: 40%;
+        }
+
     }
