@@ -1,43 +1,3 @@
-@media screen and (max-width: 360px) {
-
-    /* COMPETENZE */
-    #competenze {
-        margin-top: 30%;
-
-    }
-
-    /* FORMAZIONE */
-
-    .titolo-formazione {
-        background-size: 45% 8px;
-    }
-
-    .titolo-formazione:hover {
-        background-size: 45% 100%;
-        background-position: 0% 100%;
-    }
-
-    /* CONTATTI */
-
-    #contact {
-        height: 100vh;
-    }
-
-    .send-message-img {
-        width: 50%;
-    }
-
-    .send-message-svg {
-        right: -40%;
-
-    }
-
-
-
-}
-
-
-
 @media screen and (max-width: 767px) {
 
     /* NAV */
@@ -244,6 +204,65 @@
 }
 
 
+@media screen and (max-width: 360px) {
+
+    /* COMPETENZE */
+    #competenze {
+        margin-top: 30%;
+
+    }
+
+    /* FORMAZIONE */
+
+    .titolo-formazione {
+        background-size: 45% 8px;
+    }
+
+    .titolo-formazione:hover {
+        background-size: 45% 100%;
+        background-position: 0% 100%;
+    }
+
+    /* CONTATTI */
+
+    #contact {
+        height: 100vh;
+    }
+
+    .send-message-img {
+        width: 50%;
+    }
+
+    .send-message-svg {
+        right: -40%;
+
+    }
+
+
+
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1042px) {
+
+    /* HOME */
+
+    #home {
+        background-position-x: 50%;
+        background-position-y: 120px;
+    }
+
+    /* PROFILO */
+
+    .testo-profilo {
+        padding-right: 40%;
+    }
+
+}
+
+
+
+
 @media screen and (min-width: 768px) and (max-width: 900px) {
 
     /* FORMAZIONE */
@@ -298,26 +317,3 @@
 }
 
 }
-
-
-
-@media screen and (min-width: 768px) and (max-width: 1042px) {
-
-    /* HOME */
-
-    #home {
-        background-position-x: 50%;
-        background-position-y: 120px;
-    }
-
-    /* PROFILO */
-
-    .testo-profilo {
-        padding-right: 40%;
-    }
-
-}
-
-
-
-
