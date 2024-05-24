@@ -164,7 +164,33 @@
                 margin-left: 0;
                 width: 90%;
               }
-           
+              
+
+          /* CONTATTI */
+
+          #contact {
+            overflow: hidden;
+            height: 70vh;
+          }
+        
+          .container-form {
+            padding: 10px 40px;
+            margin-bottom: -110px;
+          }
+        
+          .send-message-svg {
+            right: 11%;    
+            bottom: -5%;
+          }
+
+          .send-message-img {
+            width: 165%;
+          }
+
+          .contact-container {
+            margin-top: 25%;
+          }
+
         }
               
 
@@ -173,6 +199,7 @@
             /* COMPETENZE */
             #competenze {
                 margin-top: 30%;
+                
               }
 
             /* FORMAZIONE */
@@ -185,6 +212,12 @@
                 background-size: 45% 100%;
                 background-position: 0% 100%;
             }
+
+             /* CONTATTI */
+
+          #contact {       
+            height: 100vh;
+          }
 
         }
     

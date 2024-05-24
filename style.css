@@ -464,6 +464,8 @@ height: 125%;
   justify-content: center;
   align-items: center;
     flex-direction: column;
+    overflow: hidden;
+    cursor: default;
 }
 
 .form-scritta
@@ -552,6 +554,10 @@ label {
   form {
     display: flex;
   flex-direction: column;
+  }
+
+  .send-message-img {
+    cursor: default;
   }
 
   /* FOOTER */
