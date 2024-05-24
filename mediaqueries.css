@@ -35,10 +35,10 @@
     /* HOME */
 
     #home {
-        background-position-x: 50%;
-        background-position-y: 20px;
-        height: 98vh;
-
+        background-position: center; 
+        background-size: cover; 
+        background-attachment: scroll; 
+        height: 95vh;
     }
 
     .titolo-home {
@@ -171,6 +171,9 @@
     #contact {
         overflow: hidden;
         height: 70vh;
+        background-position: center;
+        background-attachment: scroll;
+        height: 70vh;
     }
 
     .container-form {
@@ -228,6 +231,8 @@
 
     #contact {
         height: 100vh;
+        background-position: center;
+        background-attachment: scroll;
     }
 
     .send-message-img {
@@ -300,6 +305,12 @@
     }
 
     /* CONTATTI */
+
+    #contact { 
+        background-position: center;
+        background-attachment: scroll;
+        height: 85vh;
+    }
 
     .send-message-svg {
         right: 5%;
