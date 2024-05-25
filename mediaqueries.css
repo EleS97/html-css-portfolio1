@@ -1,0 +1,333 @@
+@media screen and (max-width: 767px) {
+
+    /* NAV */
+    nav {
+        justify-content: space-between;
+        padding: 0 1rem;
+    }
+
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        background-color: white;
+        position: absolute;
+        top: 10vh;
+        left: 0;
+        padding: 1rem 0;
+    }
+
+    .nav-links li {
+        text-align: center;
+        padding: 1rem 0;
+    }
+
+    .menu-icona {
+        display: flex;
+        margin-right: 15%;
+    }
+
+    .menu-toggle:checked~.nav-links {
+        display: flex;
+    }
+
+
+    /* HOME */
+
+    #home {
+        background-position: center; 
+        background-size: cover; 
+        background-attachment: scroll; 
+        height: 95vh;
+    }
+
+    .titolo-home {
+        font-size: 200%;
+    }
+
+    .sottotitolo-home {
+        font-size: 90%;
+        margin: 8% auto;
+    }
+
+    .bottone-home {
+        font-size: 90%;
+        padding: 8px 16px;
+    }
+
+    @keyframes typing {
+        from {
+            width: 0
+        }
+
+        to {
+            width: 90%
+        }
+    }
+
+    .portfolio-scritta {
+        font-size: 70%;
+    }
+
+    .fiore {
+        font-size: 140%;
+    }
+
+    /* PROFILO */
+
+    #profilo {
+        flex-direction: column;
+        padding-top: 15%;
+        justify-content: center;
+        align-items: center;
+        height: 80vh;
+    }
+
+    .foto-profilo,
+    .testo-profilo {
+        padding: 0;
+    }
+
+    .foto-profilo {
+        display: flex;
+        margin-top: 12%;
+    }
+
+    .foto-profilo-img {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+
+    }
+
+    .lavoro {
+        font-size: 150%;
+    }
+
+    /* COMPETENZE */
+
+    #competenze {
+        margin-top: -20%;
+
+    }
+
+    .skill-informatiche {
+        padding-top: 2%;
+
+    }
+
+    .informatica-titolo {
+        color: #777779;
+        font-weight: bold;
+
+        font-size: 150%;
+    }
+
+
+    .ticker-img {
+        margin: 3% 1%;
+        width: 10%;
+    }
+
+
+    /* FORMAZIONE */
+
+    #formazione {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .formazione-container {
+        margin-right: 0;
+        margin-left: 5%;
+        margin-bottom: -5%;
+    }
+
+    .titolo-formazione {
+        position: static;
+        transform: none;
+        margin-bottom: 20px;
+    }
+
+    .titolo-formazione {
+        background-size: 38% 8px;
+    }
+
+    .titolo-formazione:hover {
+        background-size: 40% 100%;
+        background-position: 0% 100%;
+    }
+
+    .girl-phone {
+        margin-left: 0;
+        width: 90%;
+    }
+
+
+    /* CONTATTI */
+
+    #contact {
+        overflow: hidden;
+        height: 70vh;
+        background-position: center;
+        background-attachment: scroll;
+        height: 70vh;
+    }
+
+    .container-form {
+        padding: 10px 40px;
+        margin-bottom: -110px;
+    }
+
+    .send-message-svg {
+        right: -28%;
+        bottom: -1%;
+    }
+
+    .send-message-img {
+        width: 70%;
+    }
+
+    .contact-container {
+        margin-top: 25%;
+    }
+
+        /* FOOTER */
+
+        #footer {
+            height: 15vh;
+        }
+
+     .container-footer {
+        padding-top: 5%;
+
+    }
+
+}
+
+
+@media screen and (max-width: 360px) {
+
+    /* COMPETENZE */
+    #competenze {
+        margin-top: 30%;
+
+    }
+
+    /* FORMAZIONE */
+
+    .titolo-formazione {
+        background-size: 45% 8px;
+    }
+
+    .titolo-formazione:hover {
+        background-size: 45% 100%;
+        background-position: 0% 100%;
+    }
+
+    /* CONTATTI */
+
+    #contact {
+        height: 100vh;
+        background-position: center;
+        background-attachment: scroll;
+    }
+
+    .send-message-img {
+        width: 50%;
+    }
+
+    .send-message-svg {
+        right: -40%;
+
+    }
+
+
+
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 900px) {
+
+    /* FORMAZIONE */
+
+    #formazione {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .formazione-container {
+        margin-right: 0;
+        margin-left: -25%;
+
+    }
+
+    .titolo-formazione {
+        position: static;
+        transform: none;
+        margin-bottom: 5%;
+    }
+
+    .titolo-formazione {
+        background-size: 28% 8px;
+    }
+
+    .titolo-formazione:hover {
+        background-size: 30% 100%;
+
+    }
+
+    .girl-phone {
+        margin-left: 0;
+        width: 60%;
+    }
+
+    /* CONTATTI */
+
+    #contact { 
+        background-position: center;
+        background-attachment: scroll;
+        height: 85vh;
+    }
+
+    .send-message-svg {
+        right: 5%;
+        bottom: 20%;
+    }
+
+    /* FOOTER */
+
+    #footer {
+        height: 13vh;
+    }
+
+ .container-footer {
+    padding-top: 2%;
+
+}
+
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1042px) {
+
+    /* HOME */
+
+    #home {
+        background-position-x: 50%;
+        background-position-y: 120px;
+    }
+
+    /* PROFILO */
+
+    .testo-profilo {
+        padding-right: 40%;
+    }
+
+}
+
+
+
+
