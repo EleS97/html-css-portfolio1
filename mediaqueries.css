@@ -249,26 +249,6 @@
 }
 
 
-@media screen and (min-width: 768px) and (max-width: 1042px) {
-
-    /* HOME */
-
-    #home {
-        background-position-x: 50%;
-        background-position-y: 120px;
-    }
-
-    /* PROFILO */
-
-    .testo-profilo {
-        padding-right: 40%;
-    }
-
-}
-
-
-
-
 @media screen and (min-width: 768px) and (max-width: 900px) {
 
     /* FORMAZIONE */
@@ -329,3 +309,25 @@
 }
 
 }
+
+
+@media screen and (min-width: 768px) and (max-width: 1042px) {
+
+    /* HOME */
+
+    #home {
+        background-position-x: 50%;
+        background-position-y: 120px;
+    }
+
+    /* PROFILO */
+
+    .testo-profilo {
+        padding-right: 40%;
+    }
+
+}
+
+
+
+
