@@ -26,7 +26,7 @@ p {
 }
 
 a,
-.mio-bottone {
+.link {
     transition: all 200ms ease;
 }
 
@@ -246,7 +246,7 @@ right: 0;
 position: absolute;
 z-index: 0;
 margin: auto 10px;
-height: 125%;
+max-height: 125%;
 }
 
 .testo-profilo {
@@ -263,7 +263,7 @@ height: 125%;
     display: flex;
     font-size: 220%;
     color: #98999f;
-    font: bold;
+    font-weight: bold;
     flex-direction: column;
     text-align: center;
 }
@@ -398,6 +398,8 @@ height: 125%;
     background-size: 100% 8px;
     background-repeat: no-repeat;
     transition: background-size .7s, background-position .5s ease-in-out;
+    
+    
 }
 
 .titolo-formazione:hover {
