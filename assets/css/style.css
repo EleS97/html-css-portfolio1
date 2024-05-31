@@ -66,7 +66,7 @@ nav {
 
 .logo,
 .link {
-    color: #777779;
+    color: #686767;
     font-weight: bold;
 }
 
@@ -87,14 +87,14 @@ nav {
     text-decoration: none;
     position: flex;
     box-shadow: inset 0 0 0 0 #d8d8ff;
-    color: #777779;
+    color: #686767;
     padding: 0 .25rem;
     margin: 0 -.25rem;
     transition: color 1s ease-in-out, box-shadow 0.5s ease-in-out;
 }
 
 .link:hover {
-    color: #515769;
+    color: #3e3e3f;
     box-shadow: inset 200px 0 0 0 #d8d8ff;
 }
 
@@ -106,13 +106,13 @@ nav {
     display: none;
     font-size: 24px;
     cursor: pointer;
-    color: #777779;
+    color: #3e3e3f;
   }
 
 /* HOME */
 
 #home {
-    background-image: url(/assets/masaaki-komori-qgEKJkf4sKY-unsplash.jpg);
+    background-image: url(/assets/img/masaaki-komori-qgEKJkf4sKY-unsplash.jpg);
     background-size: cover;
     background-position: left;
     background-color: #FBFBFB;
@@ -138,7 +138,7 @@ nav {
 
 .titolo-home {
     font-size: 50px;
-    color: #b8b8ef;
+    color: #9090d8;
     font-weight: bold;
     max-width: 500px;
     word-wrap: break-word;
@@ -147,7 +147,7 @@ nav {
 
 .sottotitolo-home {
     font-size: 20px;
-    color: #b8b8ef;
+    color: #9090d8;
     font-weight: 600;
     overflow: hidden;
     white-space: nowrap;
@@ -183,7 +183,7 @@ nav {
     outline: 0;
     cursor: pointer;
     color: white;
-    background: linear-gradient(to right bottom, #d8d8ff, #d0d0fb, #c8c8f7, #c0c0f3, #b8b8ef);
+    background: linear-gradient(to right bottom, #d8d8ff, #a0a0f2, #7f7ff2, #8181f0, #b8b8ef);
     border-radius: 4px;
     font-size: 17px;
     font-weight: 600;
@@ -203,7 +203,7 @@ nav {
     display: block;
     font-size: 30px;
     margin-top: 10px;
-    color: #b8b8ef;
+    color: #9090d8;
 
 }
 
@@ -231,7 +231,7 @@ section {
 .foto-profilo {
     display: flex;
     margin: auto 0;
-    color: #d8d8ff;
+    color: #9090d8;
     position: relative;
     justify-content: flex-end;
     height: 200px;
@@ -262,7 +262,7 @@ max-height: 125%;
 .lavoro {
     display: flex;
     font-size: 220%;
-    color: #98999f;
+    color: #686767;
     font-weight: bold;
     flex-direction: column;
     text-align: center;
@@ -282,7 +282,7 @@ max-height: 125%;
 }
 
 .icone-social a svg {
-    fill: #626264;
+    fill: #686767;
     transition: fill 0.3s ease;
 }
 
@@ -296,7 +296,7 @@ max-height: 125%;
     outline: 0;
     cursor: pointer;
     color: white;
-    background: linear-gradient(to right bottom, #d8d8ff, #d0d0fb, #c8c8f7, #c0c0f3, #b8b8ef);
+    background: linear-gradient(to right bottom, #d8d8ff, #a0a0f2, #7f7ff2, #8181f0, #b8b8ef);
     border-radius: 4px;
     font-size: 100%;
     font-weight: 600;
@@ -331,7 +331,7 @@ max-height: 125%;
   }
   
   .informatica-titolo {
-    color: #777779;
+    color: #686767;
     font-weight: bold;
     margin-bottom: 4%;
    font-size: 200%;
@@ -389,7 +389,7 @@ max-height: 125%;
 }
 
 .titolo-formazione {
-    color: #777779;
+    color: #686767;
     font-weight: 600;
     font-size: 180%;
     position: absolute;
@@ -415,7 +415,7 @@ max-height: 125%;
 .triennale {
     position: relative;
     padding: 5px 2px 5px 13px;
-    border-left: 2px solid #a3a3f6;
+    border-left: 2px solid #9090d8;
     margin-bottom: 5%;
 }
 
@@ -424,9 +424,9 @@ max-height: 125%;
 .overseas h3,
 .triennale h3 {
     margin: 0 0 4% 0;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 500;
-    color: #777779;
+    color: #686767;
 }
 
 .triennale h3 {
@@ -439,9 +439,9 @@ max-height: 125%;
 .overseas p,
 .triennale p {
     margin-top: -10px;
-    color: #98999f;
+    color: #6e6e6e;
     font-style: italic;
-    font-size: 15px;
+    font-size: 18px;
 }
 
 .girl-phone {
@@ -454,7 +454,7 @@ max-height: 125%;
 /* CONTATTI */
 
 #contact {
-    background-image: url(/assets/masaaki-komori-qgEKJkf4sKY-unsplash.jpg);
+    background-image: url(/assets/img/masaaki-komori-qgEKJkf4sKY-unsplash.jpg);
     background-size: cover;
     background-position: left;
     background-color: #FBFBFB;
@@ -474,7 +474,7 @@ max-height: 125%;
 .form-scritta
 {
     font-size: 35px;
-    color: #b8b8ef;
+    color: #9090d8;
     font-weight: 500;
     margin-top: -250px;
     text-align: center;
@@ -501,7 +501,7 @@ max-height: 125%;
 
 label {
     font-size: 16px;
-    color: #a3a3f6;
+    color: #9090d8;
     font-weight: 450;
 }
 
@@ -533,7 +533,7 @@ label {
     border: none;
     cursor: pointer;
     color: white;
-    background: linear-gradient(to right bottom, #d8d8ff, #d0d0fb, #c8c8f7, #c0c0f3, #b8b8ef);
+    background: linear-gradient(to right bottom, #d8d8ff, #a0a0f2, #7f7ff2, #8181f0, #b8b8ef);
     border-radius: 4px;
     font-size: 14px;
     font-family: Boiling Demo;
@@ -585,15 +585,15 @@ label {
   }
 
 .icone-social-footer a svg {
-    fill: #626264;
+    fill: #686767;
     transition: fill 0.3s ease;
 }
 
 .icone-social-footer a svg:hover {
-    fill: #a3a3f6;
+    fill: #9090d8;
 }
 
 .copyright {
     margin-top: 1.3%;
-    color: #98999f;
+    color: #686767;
 }
