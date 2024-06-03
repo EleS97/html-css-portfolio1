@@ -22,7 +22,7 @@
         padding: 1rem 0;
     }
 
-    .menu-icona {
+    .menu-icon {
         display: flex;
         margin-right: 15%;
     }
@@ -41,16 +41,16 @@
         height: 95vh;
     }
 
-    .titolo-home {
+    .home-title {
         font-size: 200%;
     }
 
-    .sottotitolo-home {
+    .home-subtitle {
         font-size: 90%;
         margin: 8% auto;
     }
 
-    .bottone-home {
+    .home-button {
         font-size: 90%;
         padding: 8px 16px;
     }
@@ -65,11 +65,11 @@
         }
     }
 
-    .portfolio-scritta {
+    .portfolio-text {
         font-size: 70%;
     }
 
-    .fiore {
+    .flower {
         font-size: 140%;
     }
 
@@ -83,17 +83,17 @@
         height: 80vh;
     }
 
-    .foto-profilo,
-    .testo-profilo {
+    .profile-photo,
+    .profile-text {
         padding: 0;
     }
 
-    .foto-profilo {
+    .profile-photo {
         display: flex;
         margin-top: 12%;
     }
 
-    .foto-profilo-img {
+    .profile-photo-img {
         position: relative;
         display: flex;
         justify-content: center;
@@ -101,13 +101,13 @@
         height: 100%;
     }
 
-    .lavoro {
+    .job-title{
         font-size: 150%;
     }
 
-    /* COMPETENZE */
+    /* IT SKILLS SECTION*/
 
-    #competenze {
+    #education {
         margin-top: -20%;
 
     }
@@ -128,30 +128,28 @@
     }
 
 
-    /* FORMAZIONE */
+    /* EDUCATION */
 
-    #formazione {
+    #education {
         flex-direction: column;
         height: auto;
     }
 
-    .formazione-container {
+    .education-container {
         margin-right: 0;
         margin-left: 5%;
         margin-bottom: -5%;
     }
 
-    .titolo-formazione {
+    .education-title {
         position: static;
         transform: none;
         margin-bottom: 20px;
-    }
-
-    .titolo-formazione {
         background-size: 38% 8px;
     }
 
-    .titolo-formazione:hover {
+
+    .education-title:hover {
         background-size: 40% 100%;
         background-position: 0% 100%;
     }
@@ -162,7 +160,7 @@
     }
 
 
-    /* CONTATTI */
+    /* CONTACT */
 
     #contact {
         overflow: hidden;
@@ -206,24 +204,25 @@
 
 @media screen and (max-width: 360px) {
 
-    /* COMPETENZE */
-    #competenze {
+    /* IT SKILLS SECTION*/
+
+    #skills {
         margin-top: 30%;
 
     }
 
-    /* FORMAZIONE */
+    /* EDUCATION */
 
-    .titolo-formazione {
+    .education-title {
         background-size: 45% 8px;
     }
 
-    .titolo-formazione:hover {
+    .education-title:hover {
         background-size: 45% 100%;
         background-position: 0% 100%;
     }
 
-    /* CONTATTI */
+    /* CONTACT */
 
     #contact {
         height: 100vh;
@@ -247,30 +246,27 @@
 
 @media screen and (min-width: 768px) and (max-width: 900px) {
 
-    /* FORMAZIONE */
+    /* EDUCATION */
 
-    #formazione {
+    #education {
         flex-direction: column;
         height: auto;
     }
 
-    .formazione-container {
+    .education-container {
         margin-right: 0;
         margin-left: -25%;
 
     }
 
-    .titolo-formazione {
+    .education-title {
         position: static;
         transform: none;
         margin-bottom: 5%;
-    }
-
-    .titolo-formazione {
         background-size: 28% 8px;
     }
 
-    .titolo-formazione:hover {
+    .education-title:hover {
         background-size: 30% 100%;
 
     }
@@ -280,7 +276,7 @@
         width: 60%;
     }
 
-    /* CONTATTI */
+    /* CONTACT */
 
     #contact { 
         background-position: center;
@@ -316,9 +312,9 @@
         background-position-y: 120px;
     }
 
-    /* PROFILO */
+    /* PROFILE */
 
-    .testo-profilo {
+    .profile-text {
         padding-right: 40%;
     }
 
