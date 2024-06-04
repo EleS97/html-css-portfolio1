@@ -80,7 +80,7 @@ nav {
     list-style: none;
     font-weight: 500;
     text-transform: uppercase;
-    font-size: 1rem !important;
+    font-size: zrem !important;
 }
 
 .link {
@@ -296,10 +296,6 @@ section {
 .student {
     display: block;
     margin-top: -0.5em;
-    background: #5959AC;
-background: linear-gradient(to right, #5959AC 0%, #8383FF 71%);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent
 }
 
 .social-icons {
@@ -452,7 +448,7 @@ background: linear-gradient(to right, #5959AC 0%, #8383FF 71%);
   margin: 0 0 4% 0;
   font-size: 18px;
   font-weight: 500;
-  color: #686767;
+  color: #4d4d4d;
   font-weight: bold;
 }
 
@@ -466,12 +462,12 @@ background: linear-gradient(to right, #5959AC 0%, #8383FF 71%);
   word-wrap: break-word;
 }
 
-.master p,
-.cfu p,
-.overseas p,
-.bachelor p {
+.master h4,
+.cfu h4,
+.overseas h4,
+.bachelor h4 {
   margin-top: -10px;
-  color: #4F4F4F;
+  color: #4d4d4d;
   font-style: italic;
   font-size: 19px;
 }
@@ -531,7 +527,7 @@ background: linear-gradient(to right, #5959AC 0%, #8383FF 71%);
   }
   
   label {
-    font-size: 16px;
+    font-size: 19px;
     color: #6868CA;
     font-weight: 450;
   }
@@ -591,12 +587,6 @@ background: linear-gradient(to right, #5959AC 0%, #8383FF 71%);
     cursor: default;
   }
   
-  .divider {
-    border: 0;
-    height: 0.5px;
-    background: #2e2d2d;
-    margin: 10px 0;
-  }
   
   /* FOOTER */
   
