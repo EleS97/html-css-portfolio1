@@ -116,6 +116,9 @@
         margin: 0 auto;
     }
 
+    .profile-gap {
+        height: 150px;
+    }
 
 
     /* IT SKILLS SECTION*/
@@ -196,12 +199,16 @@
     /* FOOTER */
 
     #footer {
-        height: 5vh;
+        height: 15vh;
     }
 
     .container-footer {
         padding-top: 5%;
 
+    }
+
+    .footer-gap {
+        height: 100px;
     }
 
 }
@@ -222,7 +229,7 @@
     .profile-photo {
         display: flex;
         margin-top: 10%;
-        margin-right: 10%;
+        margin-right: 13%;
 
     }
 
@@ -237,8 +244,6 @@
     .personal-description {
         width: 65%;
     }
-
-
 
 
     /* IT SKILLS SECTION*/
@@ -283,25 +288,27 @@
     }
 
     .send-message-svg {
-        right: -40%;
-        bottom: 1%;
+        right: -44%;
+        bottom: -2%;
     }
 
     .contact-container {
-        margin-top: 55%;
+        margin-top: 35%;
     }
 
-}
-
 /* FOOTER */
+
+#footer {
+    height: 20vh;
+}
 
 .footer-gap {
     height: 80px;
 }
 
-#footer {
-    height: 20vh;
+
 }
+
 
 
 @media screen and (min-width: 768px) and (max-width: 900px) {
@@ -357,9 +364,7 @@
 
     .container-footer {
         padding-top: 2%;
-
     }
-
 }
 
 
