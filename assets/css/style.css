@@ -448,7 +448,7 @@ section {
   margin: 0 0 4% 0;
   font-size: 18px;
   font-weight: 500;
-  color: #686767;
+  color: #4d4d4d;
   font-weight: bold;
 }
 
@@ -462,12 +462,12 @@ section {
   word-wrap: break-word;
 }
 
-.master p,
-.cfu p,
-.overseas p,
-.bachelor p {
+.master h4,
+.cfu h4,
+.overseas h4,
+.bachelor h4 {
   margin-top: -10px;
-  color: #4F4F4F;
+  color: #4d4d4d;
   font-style: italic;
   font-size: 19px;
 }
@@ -587,12 +587,6 @@ section {
     cursor: default;
   }
   
-  .divider {
-    border: 0;
-    height: 0.5px;
-    background: #2e2d2d;
-    margin: 10px 0;
-  }
   
   /* FOOTER */
   
