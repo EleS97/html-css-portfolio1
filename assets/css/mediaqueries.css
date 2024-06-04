@@ -117,9 +117,9 @@
     }
 
     .profile-gap {
+        background-position: center;
+        background-size: cover;
         background-attachment: scroll;
-        height: 150px;
-        background-size: 130%; 
     }
 
 
@@ -211,9 +211,9 @@
 
     .footer-gap {
         height: 100px;
-        background-attachment: scroll;
-        background-size: 130%; 
         background-position: center;
+        background-size: cover;
+        background-attachment: scroll;
     }
 
 }
@@ -229,9 +229,9 @@
 
     .profile-gap {
         height: 120px;
-        background-image: url(/assets/img/masaaki-komori-qgEKJkf4sKY-unsplash.jpg);
+        background-position: center;
+        background-size: cover;
         background-attachment: scroll;
-        background-size: 130%; 
     }
 
     .profile-photo {
@@ -312,6 +312,8 @@
 
 .footer-gap {
     height: 80px;
+    background-position: center;
+    background-size: cover;
     background-attachment: scroll;
 }
 
