@@ -1,35 +1,36 @@
 @media screen and (max-width: 767px) {
 
-    /* NAV */
-    nav {
-        justify-content: space-between;
-        padding: 0 1rem;
-    }
+   /* NAV */
+   nav {
+    justify-content: space-between;
+    padding: 0 1rem;
+}
 
-    .nav-links {
-        display: none;
-        flex-direction: column;
-        width: 100%;
-        background-color: white;
-        position: absolute;
-        top: 10vh;
-        left: 0;
-        padding: 1rem 0;
-    }
+.nav-links {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    background-color: white;
+    position: absolute;
+    top: 10vh;
+    left: 0;
+    padding: 1rem 0;
+}
 
-    .nav-links li {
-        text-align: center;
-        padding: 1rem 0;
-    }
+.nav-links li {
+    text-align: center;
+    padding: 1rem 0;
+}
 
-    .menu-icon {
-        display: flex;
-        margin-right: 15%;
-    }
+.menu-icona {
+    display: flex;
+    margin-right: 15%;
+}
 
-    .menu-toggle:checked~.nav-links {
-        display: flex;
-    }
+.menu-toggle:checked~.nav-links {
+    display: flex;
+}
+
 
 
     /* HOME */
@@ -38,7 +39,7 @@
         background-position: center; 
         background-size: cover; 
         background-attachment: scroll; 
-        height: 95vh;
+        height: 100vh;
     }
 
     .home-title {
@@ -75,7 +76,7 @@
 
     /* PROFILO */
 
-    #profilo {
+    #profile {
         flex-direction: column;
         padding-top: 15%;
         justify-content: center;
@@ -105,19 +106,23 @@
         font-size: 150%;
     }
 
+    .frontend {
+        display: flex;
+    }
+
     /* IT SKILLS SECTION*/
 
-    #education {
+    #skills {
         margin-top: -20%;
 
     }
 
-    .skill-informatiche {
+    .it-skills {
         padding-top: 2%;
 
     }
 
-    .informatica-titolo {
+    .it-skills-title {
         font-size: 150%;
     }
 
@@ -164,10 +169,9 @@
 
     #contact {
         overflow: hidden;
-        height: 70vh;
+        height: 90vh;
         background-position: center;
         background-attachment: scroll;
-        height: 70vh;
     }
 
     .container-form {
@@ -176,8 +180,8 @@
     }
 
     .send-message-svg {
-        right: -28%;
-        bottom: -1%;
+        right: -23%;
+        bottom: 5%;
     }
 
     .send-message-img {
@@ -238,8 +242,6 @@
         right: -40%;
 
     }
-
-
 
 }
 

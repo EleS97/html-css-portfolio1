@@ -59,7 +59,7 @@ nav {
     font-size: 1.5rem;
     display: flex;
     align-items: center;
-    margin-top: 0.4rem;
+    margin-top: 0.2rem;
     gap: 3%;
 }
 
@@ -226,12 +226,11 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 70vh;
-    font-family: Boiling Demo;
+    height: 75vh;
 }
 
 .profile-gap {
-    height: 140px; 
+    height: 190px; 
     background-image: url(/assets/img/masaaki-komori-qgEKJkf4sKY-unsplash.jpg);
     background-size: cover;
     background-position: left;
@@ -243,13 +242,14 @@ section {
 
 .profile-photo {
     display: flex;
-    margin: auto 0;
-    color: #6868CA;
     position: relative;
     justify-content: flex-end;
     height: 200px;
     align-items: center;
     text-align: center;
+    margin-left: -28%;
+    margin-right: 18%;
+    margin-bottom: 2%;
 }
 
 .profile-photo-img {
@@ -265,9 +265,22 @@ section {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    padding-right: 35%;
+    padding-right: 40%;
     position: relative;
     z-index: 2;
+}
+
+.personal-description {
+  color: #686767;
+  display: flex;
+  text-align: center;
+  font-size: 120%;
+  margin-top: 1.5%;
+  margin-bottom: -2%;
+  font-weight: 500;
+  align-self: center;
+  width: 40%;
+  word-wrap: break-word;
 }
 
 .job-title {
@@ -277,6 +290,7 @@ section {
     font-weight: bold;
     flex-direction: column;
     text-align: center;
+    font-family: Boiling Demo;
 }
 
 .student {
@@ -321,7 +335,7 @@ section {
 }
 
 
-/* IT SKILLS SECTION*/
+/* IT SKILLS SECTION */
 
 #skills {
     display: flex;
@@ -376,6 +390,7 @@ section {
     left: 0;
     width: 100%;
     height: auto;
+   
 }
 
 
@@ -580,7 +595,7 @@ section {
   }
   
     .footer-gap {
-      height: 90px; 
+      height: 160px; 
       background-image: url(/assets/img/masaaki-komori-qgEKJkf4sKY-unsplash.jpg);
       background-size: cover;
       background-position: left;
