@@ -609,7 +609,7 @@ form {
   position: relative;
   background-attachment: fixed;
   background-repeat: no-repeat;
-  height: 180px !important;
+  height: 170px;
 }
 
 .container-footer {
