@@ -230,7 +230,7 @@ section {
 }
 
 .profile-gap {
-  height: 190px;
+  height: 200px;
   background-image: url(/assets/img/masaaki-komori-qgEKJkf4sKY-unsplash.jpg);
   background-size: cover;
   background-position: left;
@@ -452,7 +452,7 @@ section {
   margin: 0 0 4% 0;
   font-size: 18px;
   font-weight: 500;
-  color: #686767;
+  color: #616060;
   font-weight: bold;
 }
 
@@ -605,7 +605,7 @@ form {
 }
 
 .footer-gap {
-  height: 190px;
+  height: 180px;
   background-image: url(/assets/img/masaaki-komori-qgEKJkf4sKY-unsplash.jpg);
   background-size: cover;
   background-position: left;
