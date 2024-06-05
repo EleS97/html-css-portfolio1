@@ -117,10 +117,11 @@
     }
 
     .profile-gap {
+        height: 160px;
         background-position: center;
         background-size: cover;
         background-attachment: scroll;
-    }
+      }
 
 
     /* IT SKILLS SECTION*/
