@@ -85,8 +85,8 @@ nav {
   text-decoration: none;
   box-shadow: inset 0 0 0 0 #d8d8ff;
   color: #686767;
-  padding: 0 .25rem;
-  margin: 0 -.25rem;
+  padding: 0 0.25rem;
+  margin: 0 -0.25rem;
   transition: color 1s ease-in-out, box-shadow 0.5s ease-in-out;
 }
 
@@ -115,7 +115,7 @@ nav {
   background-size: cover;
   background-position: left;
   background-color: #FBFBFB;
-  font-family: Boiling Demo;
+  font-family: 'Boiling Demo', sans-serif;
   position: relative;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -140,7 +140,7 @@ nav {
   color: #6868CA;
   font-weight: bold;
   max-width: 500px;
-  word-wrap: break-word;
+  word-break: break-word;
 }
 
 .home-subtitle {
@@ -188,7 +188,7 @@ nav {
   padding: 11px 20px;
   display: inline-block;
   margin: 17px auto 0;
-  font-family: Boiling Demo;
+  font-family: 'Boiling Demo', sans-serif;
 }
 
 .home-button:hover {
@@ -290,7 +290,7 @@ section {
   font-weight: bold;
   flex-direction: column;
   text-align: center;
-  font-family: Boiling Demo;
+  font-family: 'Boiling Demo', sans-serif;
 }
 
 .student {
@@ -326,14 +326,13 @@ section {
   padding: 11px 20px;
   display: inline-block;
   margin: 20px auto 0;
-  font-family: Boiling Demo;
+  font-family: 'Boiling Demo', sans-serif;
 }
 
 .profile-button:hover {
   box-shadow: rgba(0, 0, 0, .15) 0 3px 9px 0;
   transform: translateY(-2px);
 }
-
 
 
 /* IT SKILLS SECTION */
@@ -453,12 +452,12 @@ section {
 
 .master h3 {
   max-width: 500px;
-  word-wrap: break-word;
+  word-break: break-word;
 }
 
 .bachelor h3 {
   max-width: 500px;
-  word-wrap: break-word;
+  word-break: break-word;
 }
 
 .master h4,
@@ -506,7 +505,7 @@ section {
   font-weight: 500;
   margin-top: -250px;
   text-align: center;
-  font-family: Boiling Demo;
+  font-family: 'Boiling Demo', sans-serif;
   margin-bottom: 2%;
 }
 
@@ -560,7 +559,7 @@ label {
   background: linear-gradient(to right bottom, #d8d8ff, #a0a0f2, #7f7ff2, #8181f0, #b8b8ef);
   border-radius: 4px;
   font-size: 14px;
-  font-family: Boiling Demo;
+  font-family: 'Boiling Demo', sans-serif;
   padding: 6px 50px;
   display: inline-block;
   margin: 0 auto;
